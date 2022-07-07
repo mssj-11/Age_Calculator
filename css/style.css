@@ -1,0 +1,60 @@
+*{
+    margin: 0;  padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    display: flex;
+    background-color: #191919;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-calculator{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 40px;
+    background: #000;
+    border: 5px solid #4ab4de;
+    border-radius: 20px;
+    align-items: center;
+}
+
+h1{ font-size: 3rem; }
+
+.inputs{ display: flex; }
+
+.block{
+    display: flex;
+    flex-direction: column;
+    margin: 0 8px;
+}
+
+label{ margin-top: 30px; font-size: 19px;  font-weight: bold;  }
+
+.form-calculator input{
+    width: 8rem;
+    height: 2rem;
+    margin-top: 4px;
+    padding: 8px;
+    border: 2px solid #4ab4de;
+    border-radius: 6px;
+    outline: none;
+}
+
+.btn{
+    width: 8rem;
+    height: 2rem;
+    background: #4ab4de;
+    color: #fff;
+    margin-top: 30px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #4ab4de;
+    border-radius: 8px;
+}
+#displayAge{  margin-top: 30px;  }
